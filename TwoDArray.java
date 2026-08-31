@@ -26,11 +26,13 @@ public class TwoDArray {
         String[][] seasons = {{"January","Winter"},{"February","Winter"},{"March","Spring"},{"April","Spring"},{"May","Spring"},{"June","Summer"},{"July","Summer"},{"August","Summer"},{"September","Autumn"},{"October","Autumn"},{"Novemeber","Autumn"},{"December","Winter"}};
 
         for(int i = 0; i < seasons.length; i++) {
-            for(int j = 0; j < seasons[0].length; j++) {
-                System.out.print(seasons[i][j] + " "); 
+            for(int j = 0; j < seasons[i].length; j++) {
+                System.out.printf("%10s", seasons[i][j]); 
             }
             System.out.println();
         }
+        System.out.println("------------------");
+        System.out.println(seasons[6][1]);
     }
 }
     
