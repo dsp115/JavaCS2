@@ -33,6 +33,16 @@ public class TwoDArray {
         }
         System.out.println("------------------");
         System.out.println(seasons[6][1]);
+        System.out.println(" ");
+
+        System.out.println("------------------");
+        System.out.println("");
+        for(String[] row: seasons) {
+            for (String element : row) {
+                System.out.printf("%10s", element);
+            }
+            System.out.println("");
+        }
     }
 }
     
