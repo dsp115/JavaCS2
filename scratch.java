@@ -41,8 +41,10 @@ public class scratch {
         CountOpB(new int[8]);
         CountOpB(new int[16]);
 
+        CountOpC(new int[4]);
+        CountOpC(new int[8]);
 
-
+        indexOf(new int[8], 0);
         
         System.out.println("----------------------- Part 6 -----------------------");
         sortNames(new String[] {"pear", "apple", "fig", "banana"});
